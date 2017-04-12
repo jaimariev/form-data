@@ -1,0 +1,92 @@
+
+html {
+  box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+
+#app {
+  width: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  font-family: verdana;
+}
+
+#content {
+  display: block;
+  width: 90%;
+  height: 550px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+header {
+  width: 100%;
+  background: rgb(66, 139, 202);
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  color: white;
+}
+
+header p {
+  margin: 0;
+  margin-left: 20px;
+}
+
+input {
+  width: 450px;
+  height: 40px;
+  margin: auto;
+  padding-left: 30px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 450px;
+  height: 40px;
+  margin: auto;
+  outline: none;
+  margin-top: 20px;
+  background: white;
+}
+
+textarea {
+  width: 450px;
+  height: 80px;
+  margin: auto;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+i {
+  color: gray;
+  position: relative;
+  top: 29px;
+  left: 10px;
+} 
+
+footer {
+  background: rgb(200, 221, 239);
+  height: 100px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background: rgb(66, 139, 202);
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
